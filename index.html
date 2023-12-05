@@ -15,7 +15,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata&family=Josefin+Sans&family=Poppins:wght@300&family=Rubik+Iso&family=Teko:wght@300&display=swap" rel="stylesheet">
     <style>
-      @media screen and (max-width:400px){
+      #carouselExampleFade{
+        width: 96%;
+      }
+      @media only screen and (max-width: 600px){
+        #carouselExampleFade{
+          margin: 0;
+          width: 85%;
+        }
       .row{
       display: flex;
       margin: 0;
@@ -46,7 +53,7 @@
         </div>
       </nav>
     <!-- banner-->
-    <div style="width: 96%;" id="carouselExampleFade" class="carousel slide carousel-fade m-4">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade m-4">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="https://images6.alphacoders.com/125/1257448.jpg" style="height: 460px;" class="d-block w-100" alt="...">
